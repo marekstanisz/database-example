@@ -10,7 +10,9 @@ gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
-gem "twitter-bootstrap-rails"
+source 'https://rails-assets.org' do
+  gem 'rails-assets-bootstrap-sass'
+end
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
